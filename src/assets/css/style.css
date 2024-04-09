@@ -24,6 +24,12 @@
   }
   
 
+  .navbar-toggler{
+    border: 1px solid #fff !important;
+  }
+  .navbar-toggler:focus{
+    box-shadow: none !important;
+  }
 
 .font_bold {
   font-family: "raleway_bold" !important;

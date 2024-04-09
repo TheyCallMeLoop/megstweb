@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Nav } from 'react-bootstrap';
+import { Nav, Button } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import BaseButton from '../basebutton';
@@ -40,8 +40,10 @@ const  Header =() => {
   return (
     <Navbar expand="lg" fixed="top"  className={visible ? "header_main" : "header_main navbar-hidden"}>
     <Container fluid>
-    {/* <BaseButton text={'log out'} margin={'0'} /> */}
       <Navbar.Toggle aria-controls="navbarScroll" />
+      <Navbar.Brand href="#">
+      <Button className='base_btn font_regular text_white m-0' >Log out</Button>
+      </Navbar.Brand>
       <Navbar.Collapse id="navbarScroll">
         <Nav
           className="me-auto my-2 my-lg-0"

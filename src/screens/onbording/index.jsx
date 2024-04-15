@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react'
-import BgVideo from '../../assets/video/3971351-hd_1920_1080_25fps.mp4';
+import BgVideo from '../../assets/video/videomgst.mp4';
 import BaseButton from '../../compnents/basebutton';
 import logo from '../../assets/images/Logo.svg'
 import { Button, Modal } from 'react-bootstrap';

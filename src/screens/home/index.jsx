@@ -1,6 +1,12 @@
 import React, { useEffect, useRef } from 'react'
 import { Col, Row,  } from 'react-bootstrap'
 import prod from '../../assets/images/listing_pro.png'
+import lsting1 from '../../assets/otherasseets/henrique-ferreira-V7GrFTVwdko-unsplash.jpg'
+import lsting2 from '../../assets/otherasseets/sir-simo-jK8Zsk9chqI-unsplash.jpg'
+import lsting3 from '../../assets/images/listing_pro.png'
+import lsting4 from '../../assets/images/listing_pro.png'
+
+
 import founder from '../../assets/images/founder.svg'
 import { useLocation, useSearchParams } from 'react-router-dom';
 import uidesk from '../../assets/images/brands/uideck.svg'
@@ -76,25 +82,25 @@ const Home =()=> {
 
                     <Col  xxl="3" lg="4" className='flex_center gap-2' style={{paddingBottom: 10}} >
                         <div className='listing_card'>
-                            <img src={prod} className='showimg' alt="" />
+                            <img src={lsting2} className='showimg' alt="" />
                             <p style={{ padding: 15 }} className='text_dark font_regular '>Le Lorem Ipsum est un faux texte utilisé pour la composition et la mise en page. Le Lorem Ipsum est un faux texte utilisé pour la composition et la mise en page.</p>
                         </div>
                     </Col>
                     <Col xxl="3" lg="4" className='flex_center' style={{paddingBottom: 10}}  >
                         <div className='listing_card'>
-                            <img src={prod} className='showimg' alt="" />
+                            <img src={lsting2} className='showimg' alt="" />
                             <p style={{ padding: 15 }} className='text_dark font_regular '>Le Lorem Ipsum est un faux texte utilisé pour la composition et la mise en page. Le Lorem Ipsum est un faux texte utilisé pour la composition et la mise en page.</p>
                         </div>
                     </Col>
                     <Col xxl="3" lg="4" className='flex_center' style={{paddingBottom: 10}}  >
                         <div className='listing_card'>
-                            <img src={prod} className='showimg' alt="" />
+                            <img src={lsting2} className='showimg' alt="" />
                             <p style={{ padding: 15 }} className='text_dark font_regular '>Le Lorem Ipsum est un faux texte utilisé pour la composition et la mise en page. Le Lorem Ipsum est un faux texte utilisé pour la composition et la mise en page.</p>
                         </div>
                     </Col>
                     <Col xxl="3" lg="4" className='flex_center' style={{paddingBottom: 10}}  >
                         <div className='listing_card'>
-                            <img src={prod} className='showimg' alt="" />
+                            <img src={lsting2} className='showimg' alt="" />
                             <p style={{ padding: 15 }} className='text_dark font_regular'>Le Lorem Ipsum est un faux texte utilisé pour la composition et la mise en page. Le Lorem Ipsum est un faux texte utilisé pour la composition et la mise en page.</p>
                         </div>
                     </Col>

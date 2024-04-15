@@ -371,6 +371,7 @@ h6 {
 .showimg{
   width: 100% !important;
   border-radius: 8px;
+  height: 500px;
 }
 
 .founder_section{
@@ -394,7 +395,7 @@ h6 {
 }
 
 .trust_section{
-  background-image: url('../images/trust.jpg');
+  background-image: url('../lanscapImages/3.png');
   width: 100%;
   background-size: 100% 100%;
   background-repeat: no-repeat;

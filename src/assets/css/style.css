@@ -227,8 +227,8 @@
 
 .base_btn {
   background: var(--primary) !important;
-  height: 51px;
-  width: 200px;
+  height: 40px;
+  width: 150px;
   margin-top: 25px;
   border: none !important;
 }
@@ -339,7 +339,7 @@ h6 {
 }
 
 .hero_section{
-    background-image: url('../images/home.png');
+    background-image: url('../otherasseets/church.jpg');
     height: 60vh;
     width: 100%;
     background-repeat: no-repeat;

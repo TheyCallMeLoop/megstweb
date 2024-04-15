@@ -120,7 +120,7 @@ const Home =()=> {
                             Passionate about real estate and finance, Antonio is committed to empowering individuals and businesses to achieve their property and financial aspirations. His approach is characterized by strategic insight, innovation, and a genuine dedication to client success.</p>
                         </Col>
 
-                         <Col xl="3" xxl="3" style={{display: 'flex' , justifyContent: 'end' , alignItems: 'center'}}>
+                         <Col xl="3" xxl="3" className='respo' style={{display: 'flex' , justifyContent: 'end' , alignItems: 'center'}}>
                          <img src={founder} alt="" />
                          </Col>
                     </Row>

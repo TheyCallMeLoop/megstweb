@@ -534,6 +534,14 @@ footer{
 
 
 
+@media (max-width:400px){
+  .respo{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+}
 
 @media (max-width:660px){
   .main{
@@ -570,9 +578,9 @@ footer{
   gap: 50px;
   grid-template-columns: repeat(4, 1fr );
 }
-.row{
+/* .row{
  margin-top: 50px;
-}
+} */
 .footer-header{
   font-size: 1.5rem;
 }

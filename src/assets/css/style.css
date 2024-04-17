@@ -372,6 +372,7 @@ h6 {
   width: 100% !important;
   border-radius: 8px;
   height: 500px;
+  object-fit: cover;
 }
 
 .founder_section{
@@ -731,4 +732,9 @@ hr{
 
 .hidden {
   display: none !important;
+}
+
+
+.errorMsg{
+  color: red !important;
 }

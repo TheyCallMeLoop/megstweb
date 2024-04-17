@@ -8,6 +8,7 @@ import "./assets/css/style.css"
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
+  const logged = window.localStorage.getItem('checked')
   return (
     <div className="App">
     {/* <Header/> */}
